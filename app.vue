@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-const store = useTestStore();
+//const store = useTestStore();
 
 await useAsyncData(fetchData);
 
