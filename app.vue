@@ -9,4 +9,6 @@
 const store = useTestStore();
 
 await useAsyncData("todos", () => store.fetchIconsData());
+
+store.getIcons;
 </script>

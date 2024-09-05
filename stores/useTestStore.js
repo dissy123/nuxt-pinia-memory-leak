@@ -13,9 +13,6 @@ export const useTestStore = defineStore("test", {
         method: "GET",
       });
 
-      console.log("fetch todos data");
-      console.log(data);
-
       this.icons = data;
     },
   },
